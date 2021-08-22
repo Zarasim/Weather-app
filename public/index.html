@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geolocation app main</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+  <link rel="shortcut icon" href="#" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Geolocation App</h1>
+  <div><a href="/">check in</a> | <a href="/logs">views</a></div>
+
+  <p>
+    Hello !<br>
+    Today at the coordinates (latitude : <span id="latitude"></span>&deg , longitude: <span id="longitude"></span>&deg)
+    the Temperature is <span id="temperature"></span>&deg C and the Weather is <span id="summary"></span>. The
+    concentrate of particulate matter is <span id="value"></span> <span id="unit"></span> last read on <span
+      id="lastUpdated"></span>. </p>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
