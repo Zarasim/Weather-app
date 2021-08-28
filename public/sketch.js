@@ -30,6 +30,8 @@ if ("geolocation" in navigator) {
 
     } catch (error) {
       console.error(error)
+      aq.value = -1
+      document.getElementById("value").textContent = 'NO READING';
     }
 
     const data = { weather, aq };
