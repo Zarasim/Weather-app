@@ -33,6 +33,12 @@ app.post("/api", (request, response) => {
     response.json(data);
 });
 
+app.get("/logs/Token", async (request, response) => {
+    const token = process.env.MAP_TOKEN
+    response.json(token);
+});
+
+
 app.get("/weather/:latlon", async (request, response) => {
     console.log(request.params);
     const latlon = request.params.latlon.split(",");
