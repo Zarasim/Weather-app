@@ -6,7 +6,7 @@ Prerequisities for running the script:
 
 1 - Install Node.js
 
-2 - The next packages can be installed via terminal by typing npm install package-name
+2 - The next packages can be installed via terminal by typing 'npm install package-name':
 
 - Express.js (provides methods to specify what function is called for a particular HTTP verb and URL pattern ) 
 - node-fetch (A light-weight module that brings Fetch API to node.js) 
