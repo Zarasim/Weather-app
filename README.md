@@ -16,3 +16,6 @@ with Node Package Manager (npm)
 3 - The API_KEY in .env_sample must be changed with your personal key. To do so, sign up in https://openweathermap.org/. 
 
 To run the script, download the folder and run in the terminal node index.js and see the result by opening a tab at the address localhost/3000 in any browser.
+
+
+The new tab presents the world map with icons displaying weather metrics for the location selected.
